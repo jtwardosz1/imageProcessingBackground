@@ -6,7 +6,7 @@ import math
 import random
 
 #This uses cv2.imread to read in an image and assign it to im1
-im1 = cv2.imread('bearissad.jpg')
+im1 = cv2.imread('bearissad3.jpg')
 
 #This uses cv2.cvtColor to convert from color to grayscale
 img = cv2.cvtColor(im1, cv2.COLOR_BGR2GRAY)
